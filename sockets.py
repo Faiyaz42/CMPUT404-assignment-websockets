@@ -180,4 +180,4 @@ if __name__ == "__main__":
         and run
         gunicorn -k flask_sockets.worker sockets:app
     '''
-    app.run(host="127.0.0.1", port=5000)
+    os.system("bash run.sh")
